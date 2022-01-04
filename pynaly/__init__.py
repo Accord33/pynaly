@@ -1,1 +1,1 @@
-from pynaly import *
+from pynaly.pynaly import *
