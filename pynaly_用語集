@@ -1,0 +1,48 @@
+基本構文
+    import pynaly as pn
+int型
+        pn.Int(値)
+    float型に変換
+        data._float()
+float型
+        pn.Float(値)
+    int型に変換
+        data._int()
+ゼロ配列
+    one = zeroArray(数)
+イチ配列
+    two = oneArray(数)
+共分散
+    covery(one, two)
+相関係数
+    coeffy(one, two)
+値
+    pn.pi #円周率
+    pn.e #ネイピア数
+一次元配列
+    基本構文
+        one = pn.Array(list)
+    四則計算
+        +-*#割り算は未実装
+    中央値
+        one.median
+    最大値最小値
+        one.max
+        one.min
+    平均値
+        one.ave
+    最頻値
+        one.mode
+    長さ
+        one.len()
+    範囲
+        one.range()
+    リスト追加
+        one.append(Array)
+    分散
+        one.dist()
+    四分位数
+        q1, q3 = one.quar()
+    偏差値
+        one.adjusted(score)
+        #scoreなしだとinputする
